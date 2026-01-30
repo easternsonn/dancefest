@@ -1,0 +1,20 @@
+# robots.txt for Art Portal - Dance Festival Website
+
+User-agent: *
+Allow: /
+
+# Block access to backend files
+Disallow: /submit.php
+Disallow: /server.js
+Disallow: /test-form.html
+Disallow: /package.json
+Disallow: /env.example
+Disallow: /.env
+Disallow: /node_modules/
+
+# Allow CSS and JS
+Allow: /css/
+Allow: /js/
+
+# Sitemap location
+Sitemap: https://artportal.ru/sitemap.xml

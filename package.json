@@ -1,0 +1,33 @@
+{
+  "name": "art-portal-dancefest",
+  "version": "1.0.0",
+  "description": "Dance Festival Platform - Art Portal website with form submission and MP3 file upload",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "dance",
+    "festival",
+    "art",
+    "portal",
+    "form",
+    "upload"
+  ],
+  "author": "Art Portal",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
